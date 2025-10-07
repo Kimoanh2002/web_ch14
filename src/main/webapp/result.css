@@ -1,7 +1,7 @@
 /* ===== style-result.css ===== */
 body {
     font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
-    background: linear-gradient(135deg, #fff5a3, #c1f0a2); /* vàng kem → xanh lá non */
+    background: linear-gradient(135deg, #fff89a, #b8f28a); /* vàng nhạt -> xanh lá non */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,22 +29,22 @@ body {
 
 /* ===== Tiêu đề ===== */
 h2 {
-    color: #7fa800; /* xanh lá dứa đậm */
+    color: #7fa800; /* xanh lá đậm */
     font-size: 1.6rem;
     margin-bottom: 0.6rem;
     letter-spacing: 0.3px;
 }
 
 h3 {
-    color: #4b4b4b;
+    color: #333;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
 /* ===== Nội dung chính của email ===== */
 .email-body {
-    background: #fffef5; /* nền vàng kem nhạt */
-    border-left: 5px solid #ffd84c; /* vàng dứa tươi */
+    background: #fffef5; /* nền vàng kem */
+    border-left: 5px solid #ffd84c; /* viền vàng dứa */
     padding: 1.2rem 1rem;
     border-radius: 10px;
     line-height: 1.7;
@@ -55,7 +55,7 @@ h3 {
 
 /* ===== Thông báo lỗi ===== */
 .error {
-    color: #e26d00; /* cam dứa dịu */
+    color: #e26d00; /* cam dứa */
     font-weight: 600;
     margin-top: 0.8rem;
 }
@@ -65,14 +65,14 @@ a {
     display: inline-block;
     margin-top: 1.8rem;
     background: linear-gradient(135deg, #ffd84c, #9cd800); /* vàng → xanh lá non */
-    color: #3b3b3b;
+    color: #fff;
     padding: 0.75rem 1.4rem;
     text-decoration: none;
     border-radius: 10px;
     font-weight: 600;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(255, 216, 76, 0.35);
+    box-shadow: 0 4px 10px rgba(255, 216, 76, 0.3);
 }
 
 a:hover {

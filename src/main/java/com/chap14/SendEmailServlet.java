@@ -17,7 +17,7 @@ public class SendEmailServlet extends HttpServlet{
         String to = request.getParameter("email");
 
         // Nội dung mail mẫu
-        String subject = "Bài tập chương14!";
+        String subject = "Bài tập chương 14!";
         String body = "<h2>Hello!</h2>"
                 + "<p> check JavaMail.</p>"
                 + "<p> Hoàn thành bt ch14!</p>";

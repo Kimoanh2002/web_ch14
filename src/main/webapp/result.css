@@ -1,7 +1,7 @@
-/* ===== style-result.css (phiên bản tông trái dứa) ===== */
+/* ===== style-result.css ===== */
 body {
     font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
-    background: linear-gradient(135deg, #fff3a1, #c8f08f); /* vàng kem → xanh lá non */
+    background: linear-gradient(135deg, #fff5a3, #c1f0a2); /* vàng kem → xanh lá non */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
     background: #ffffff;
     padding: 2.5rem 3rem;
     border-radius: 18px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
     width: 620px;
     text-align: center;
     animation: slideUp 0.7s ease;
@@ -36,15 +36,15 @@ h2 {
 }
 
 h3 {
-    color: #444;
+    color: #4b4b4b;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
 /* ===== Nội dung chính của email ===== */
 .email-body {
-    background: #fffef6; /* nền vàng kem nhạt */
-    border-left: 5px solid #ffd84c; /* viền vàng dứa */
+    background: #fffef5; /* nền vàng kem nhạt */
+    border-left: 5px solid #ffd84c; /* vàng dứa tươi */
     padding: 1.2rem 1rem;
     border-radius: 10px;
     line-height: 1.7;
@@ -55,7 +55,7 @@ h3 {
 
 /* ===== Thông báo lỗi ===== */
 .error {
-    color: #e03e00; /* cam đỏ nổi bật trên nền trái dứa */
+    color: #e26d00; /* cam dứa dịu */
     font-weight: 600;
     margin-top: 0.8rem;
 }

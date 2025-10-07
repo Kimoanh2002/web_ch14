@@ -19,8 +19,8 @@ public class SendEmailServlet extends HttpServlet{
         // Nội dung mail mẫu
         String subject = "Bài tập chương14!";
         String body = "<h2>Hello!</h2>"
-                + "<p>check JavaMail.</p>"
-                + "<p>hoàn thành btch14!</p>";
+                + "<p> check JavaMail.</p>"
+                + "<p> Hoàn thành bt ch14!</p>";
 
         try {
             MailUtil.sendMail(to, subject, body);
